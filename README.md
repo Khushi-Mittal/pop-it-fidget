@@ -1,1 +1,1 @@
-# pop-it-fidget
+# javascript-balloon-popping-project
