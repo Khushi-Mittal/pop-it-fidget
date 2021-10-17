@@ -33,11 +33,10 @@ function removeEvent(e){
 
 function checkAllPopped(){
     if (popped === 8){
-        let gallery = document.querySelector('#wrapper');
        let box =  document.querySelector('.flip-box');
        box.classList.toggle("flipboxs");
        setTimeout(function() {
-        gallery.innerHTML =  window.location.reload(true);
+        box.innerHTML =  window.location.reload(true);
       }, 800);
     }
 };
