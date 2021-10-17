@@ -1,5 +1,4 @@
 let popped = 0;
-
 document.addEventListener('click', function(e){
     
     if (e.target.className.includes("balloon")){
@@ -11,8 +10,6 @@ document.addEventListener('click', function(e){
       checkAllPopped();
     }   
 });
-
-
 function buttonAnimation(currentKey) {
 
     var activeButton = document.querySelector("." + currentKey);
@@ -21,7 +18,6 @@ function buttonAnimation(currentKey) {
     setTimeout(function() {
       activeButton.classList.remove("pressed");
     }, 50);
-  
   }
   
 function removeEvent(e){
