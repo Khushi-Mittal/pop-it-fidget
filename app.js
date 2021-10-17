@@ -22,8 +22,7 @@ function buttonAnimation(currentKey) {
       activeButton.classList.remove("pressed");
     }, 50);
   
-  }
-  
+}
 
 function removeEvent(e){
     e.target.removeEventListener('click', function(){
@@ -35,8 +34,9 @@ function checkAllPopped(){
     if (popped === 8){
        let box =  document.querySelector('.flip-box');
        box.classList.toggle("flipboxs");
+       let gallery = document.querySelector('#flip-box');
        setTimeout(function() {
         box.innerHTML =  window.location.reload(true);
-      }, 800);
+      }, 700);
     }
 };
