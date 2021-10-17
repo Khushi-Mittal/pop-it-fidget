@@ -31,7 +31,7 @@ h2{
   text-align: center;
   margin: 10px;
   margin-top: 20px;
-     background: #ffce00;
+  background: #ffce00;
   /* background-color: white; */
 }
 
@@ -81,6 +81,6 @@ h2{
     color: white;
   }
   
-.flipboxs .flip-box-inner {
-        transform: rotateY(180deg);
+.flipbox .flip-box-inner {
+    transform: rotateY(180deg);
 }
